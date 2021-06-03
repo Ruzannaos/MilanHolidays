@@ -1,0 +1,171 @@
+.back {
+    width: 1366px;
+    height: 768px;
+    background-image: url(../imgs/Milan_Holidays.jpg);
+    background-repeat: no-repeat;
+}
+
+.wrapper {
+    padding-left: 155px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    height: 420px;
+}
+
+.main__logo {
+    display: inline-block;
+}
+
+.main__logo:hover {
+    color: #F26522;
+}
+
+.logo {
+    display: inline-block;
+    width: 46px;
+    height: 44px;
+    background-image: url(../imgs/logo.png);
+}
+
+.logo:hover {
+    width: 46px;
+    height: 44px;
+    background-image: url(../imgs/logo_hover.png);
+}
+
+.ltxt {
+    display: inline-block;
+    font-size: 1.8rem;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+}
+
+
+.main__logo:hover .logo {
+    background-image: url("../imgs/logo_hover.png");
+}
+.main__logo:hover .ltxt{
+    color: #f26522;
+}
+
+.Milan {
+    margin-bottom: 0;
+}
+
+.logo__txt {
+    font-size: 1.1rem;
+    text-align: center;
+    margin-top: 0;
+}
+
+.contacts {
+    margin-left: 700px;
+    display: inline-block;
+    font-size: 18px;
+    text-align: right;
+}
+
+.mailto {
+    text-decoration: none;
+    color: white;
+}
+
+.telto {
+    text-decoration: none;
+    color: white;
+}
+
+.images {
+    margin: 0 auto;
+}
+
+.tours {
+    display: inline-block;
+    width: 307px;
+    height: 200px;
+}
+
+.tours:hover .tour__name {
+    color: #f26522;
+}
+
+.tours:hover .block {
+    visibility: visible;
+}
+
+.tour1 {
+    background-image: url("../imgs/Shopping_Tours.png");
+    background-repeat: no-repeat;
+}
+
+.block {
+    width: 307px;
+    height: 63px;
+    background-color: #f26522;
+    margin-top: 137px;
+    visibility: hidden;
+}
+
+.price {
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: white;
+    padding-left: 13px;
+    padding-top: 7px;
+}
+
+.from {
+    font-size: .7rem;
+}
+
+.euro {
+    font-size: 1.3rem;
+}
+
+.details {
+    display: inline-block;
+    font-size: 1rem;
+    text-decoration: none;
+    color: white;
+    padding-left: 145px;
+}
+
+.tour2 {
+    background-image: url("../imgs/Sightseeing_Tours.png");
+    background-repeat: no-repeat;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.tour3 {
+    background-image: url("../imgs/Food_Tours.png");
+    background-repeat: no-repeat;
+}
+
+.tour4 {
+    background-image: url("../imgs/Bars_&_Nightlife.png");
+    background-repeat: no-repeat;
+    margin-top: 45px;
+}
+
+.tour5 {
+    background-image: url("../imgs/Art_&_Architecture.png");
+    background-repeat: no-repeat;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.tour6 {
+    background-image: url("../imgs/Walking_Tours.png");
+    background-repeat: no-repeat;
+}
+
+.tour__name {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+}
+
